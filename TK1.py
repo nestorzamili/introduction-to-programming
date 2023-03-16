@@ -5,10 +5,9 @@ print("\nSelamat siang...")
 # Input jumlah orang dan nama pemesan
 jumlah_orang = int(input("Pesan untuk berapa orang: "))
 nama_pemesan = input("Pesanan atas nama: ")
-print()
 
 # Menu makanan beserta harga
-print("Menu spesial hari ini")
+print("\nMenu spesial hari ini")
 print('=' * 40)
 menu = {
     "1. Nasi Goreng Spesial": 9999.99,
