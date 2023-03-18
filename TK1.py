@@ -45,8 +45,8 @@ print("{:<58} =   Rp {:,.2f}".format("Total Pembelian", total_harga))
 
 
 # Hitung harga diskon dan total pembelian setelah diskon
-harga_diskon = harga_total * 0.1
-total_pembelian_setelah_diskon = harga_total - harga_diskon
+harga_diskon = total_harga * 0.1
+total_pembelian_setelah_diskon = total_harga - harga_diskon
 
 # Hitung pembelian per orang
 pembelian_per_orang = total_pembelian_setelah_diskon / jumlah_orang
